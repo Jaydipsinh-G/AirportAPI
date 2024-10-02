@@ -107,7 +107,7 @@ namespace AirportSystem.Migrations
                         column: x => x.ArrivalAirportID,
                         principalTable: "Airport",
                         principalColumn: "AirportID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Route_Airport_DepartureAirportID",
                         column: x => x.DepartureAirportID,

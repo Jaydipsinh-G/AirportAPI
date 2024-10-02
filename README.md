@@ -15,9 +15,9 @@ To set up the connection string for the Airport System, follow these steps:
 To create the database for the Airport System, follow these steps:
 1. Open the Package Manager Console in Visual Studio.
 2. Set the default project to the project containing the Airport System.
-3. Run the following command: `dotnet ef database update`.
+3. Run the following command: `dotnet ef database update --project AirportSystem`.
 
-### Setup Project
+### Project Setup
 To set up the Airport System project, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the solution file in Visual Studio.
